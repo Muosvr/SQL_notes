@@ -1,5 +1,8 @@
 From codecademy
 
+CASE
+A CASE statement allows us to create different outputs (usually in the SELECT statement). It is SQL's way of handling if-then logic.
+e.g.
 SELECT name,
 	CASE
   	WHEN imdb_rating > 8 THEN "Fantastic"
@@ -7,3 +10,6 @@ SELECT name,
     ELSE "Avoid at All Costs"
   END AS "Review"
 FROM movies;
+
+
+
